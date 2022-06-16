@@ -1,0 +1,4496 @@
+body, html {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  right: 0px;
+  padding: 0px;
+}
+
+.cotainer {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.cotainer .frontpage1 {
+  height: 570px;
+  box-shadow: 0px 0px 3px;
+  margin-bottom: 100px;
+}
+.cotainer .frontpage2 {
+  height: 570px;
+  border: 1px solid ghostwhite;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  margin-left: 200px;
+}
+.cotainer .frontpage2 .logo {
+  width: 100%;
+  height: 30px;
+}
+.cotainer .frontpage2 .text {
+  width: 100%;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 80px;
+  font-family: arial;
+  font-size: 60px;
+  font-weight: 900;
+}
+.cotainer .frontpage2 .text2 {
+  width: 100%;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 50px;
+  font-family: calibri;
+  font-size: 35px;
+  font-weight: 700;
+}
+.cotainer .frontpage2 .login1 {
+  width: 300px;
+  height: 40px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cotainer .frontpage2 .login1 .googlelogo {
+  width: 50px;
+  height: 20px;
+}
+.cotainer .frontpage2 .login1 .google {
+  width: 100;
+  height: 20px;
+  font-family: arial;
+  font-size: 15px;
+}
+.cotainer .frontpage2 .login1:hover {
+  background-color: ghostwhite;
+}
+.cotainer .frontpage2 .login2 {
+  width: 300px;
+  height: 40px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cotainer .frontpage2 .login2 .fa-apple {
+  width: 50px;
+  height: 20px;
+  font-size: larger;
+}
+.cotainer .frontpage2 .login2 .apple {
+  width: 100;
+  height: 20px;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 700;
+}
+.cotainer .frontpage2 .login2:hover {
+  background-color: #E6E6E6;
+}
+.cotainer .frontpage2 button {
+  background-color: transparent;
+  border: none;
+}
+.cotainer .frontpage2 .or {
+  width: 300px;
+  height: 15px;
+  margin-left: 10px;
+  margin-top: 18px;
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+}
+.cotainer .frontpage2 .ref {
+  text-decoration: none;
+}
+.cotainer .frontpage2 .login3 {
+  width: 300px;
+  height: 40px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: #0F9AFB;
+  margin-left: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cotainer .frontpage2 .login3 .text3 {
+  width: 100;
+  height: 20px;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+.cotainer .frontpage2 .login3:hover {
+  background-color: #146EBE;
+}
+.cotainer .frontpage2 .account {
+  width: 250px;
+  height: 25px;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: arial;
+  font-weight: 700;
+}
+.cotainer .frontpage2 .signin {
+  width: 300px;
+  height: 40px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cotainer .frontpage2 .signin .signinbox {
+  width: 100;
+  height: 20px;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F9AFB;
+}
+.cotainer .frontpage2 .signin:hover {
+  background-color: ghostwhite;
+}
+.cotainer .frontpage2 .instruction {
+  width: 300px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: calibri;
+  font-size: 12px;
+  font-weight: 600;
+  color: grey;
+  line-height: 13px;
+}
+.cotainer .frontpage2 .instruction .terms {
+  margin-left: -3px;
+  font-family: calibri;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1D9BF2;
+}
+.cotainer .frontpage2 .instruction .terms:hover {
+  text-decoration: underline;
+}
+.cotainer .infobox {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: calibri;
+  color: grey;
+}
+.cotainer .infobox button {
+  width: fit-content;
+  height: 30px;
+  border: none;
+  font-family: calibri;
+  text-align: center;
+  background-color: transparent;
+  color: grey;
+  margin-right: -2px;
+}
+.cotainer .info:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1280px) {
+  .cotainer .frontpage1 {
+    margin-left: -90px;
+  }
+  .cotainer .frontpage2 .logo {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .text {
+    font-size: 77px;
+    font-family: calibri;
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .text2 {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .login1 {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .login2 {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .login3 {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .or {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .account {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .signin {
+    margin-left: 30px;
+  }
+  .cotainer .frontpage2 .instruction {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1180px) {
+  .cotainer .frontpage1 {
+    margin-left: -110px;
+  }
+  .cotainer .frontpage2 .logo {
+    margin-left: 50px;
+  }
+  .cotainer .frontpage2 .text {
+    font-size: 71px;
+    font-family: calibri;
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .text2 {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .login1 {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .login2 {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .login3 {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .or {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .account {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .signin {
+    margin-left: 62px;
+  }
+  .cotainer .frontpage2 .instruction {
+    margin-left: 62px;
+  }
+}
+@media (max-width: 1024px) {
+  .cotainer .frontpage1 {
+    width: 500px;
+    margin-left: -190px;
+  }
+  .cotainer .frontpage2 .logo {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .text {
+    font-size: 61px;
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .text2 {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .login1 {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .login2 {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .login3 {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .or {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .account {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .signin {
+    margin-left: 60px;
+  }
+  .cotainer .frontpage2 .instruction {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 915px) {
+  .cotainer .frontpage2 .text {
+    font-size: 51px;
+  }
+}
+@media (max-width: 912px) {
+  .cotainer .frontpage1 {
+    width: 100;
+    margin-top: 610px;
+  }
+  .cotainer .frontpage1 img {
+    min-width: 100% !important;
+  }
+  .cotainer .frontpage2 {
+    margin-left: -200px;
+  }
+  .cotainer .frontpage2 .logo {
+    margin-bottom: -55px;
+  }
+  .cotainer .frontpage2 .text {
+    margin-bottom: -45px;
+    margin-top: 100px;
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .cotainer .frontpage2 .text2 {
+    margin-top: 110px;
+  }
+  .cotainer .frontpage2 .or {
+    margin-top: 10px;
+  }
+  .cotainer .frontpage2 .login3 {
+    margin-top: 10px;
+  }
+  .cotainer .frontpage2 .account {
+    margin-top: 20px;
+  }
+}
+
+.wrapup {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 2px;
+  background-color: #999999;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.wrapup .signup {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 0px 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.wrapup .signup .closebox {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: arial;
+  font-weight: 700;
+}
+.wrapup .signup .closebox .close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.wrapup .signup .closebox .close .fa-close {
+  font-size: larger;
+}
+.wrapup .signup .closebox .close:hover {
+  background-color: #E7E7E8;
+}
+.wrapup .signup .closebox .step {
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin-left: -15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.wrapup .signup .create {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 700;
+}
+.wrapup .signup input {
+  width: 450px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 70px;
+}
+.wrapup .signup .input {
+  position: relative;
+  color: gray;
+  font-family: arial;
+  font-weight: 500;
+  text-indent: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.wrapup .signup .input span {
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  background-color: white;
+}
+.wrapup .signup .input .name:focus + span {
+  transform: translateY(-100%);
+  color: #0F9AFB;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.wrapup .signup .input .name:focus {
+  border: 2px solid #1D9BF0;
+  outline: none;
+}
+.wrapup .signup .phoneinput {
+  position: relative;
+  color: gray;
+  font-family: arial;
+  font-weight: 500;
+  text-indent: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.wrapup .signup .phoneinput span {
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  background-color: white;
+}
+.wrapup .signup .phoneinput .phone:focus + span {
+  transform: translateY(-100%);
+  color: #0F9AFB;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.wrapup .signup .phoneinput .phone:focus {
+  border: 2px solid #1D9BF0;
+  outline: none;
+}
+.wrapup .signup .email {
+  width: 450px;
+  height: 30px;
+  margin-left: 70px;
+  margin-top: 5px;
+  font-family: arial;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.wrapup .signup .email button {
+  border: none;
+  color: #0F9AFB;
+  background-color: transparent;
+}
+.wrapup .signup .email:hover {
+  text-decoration: underline;
+  color: #0F9AFB;
+}
+.wrapup .signup .birthdate {
+  width: 500px;
+  height: 30px;
+  box-shadow: none;
+  margin-top: 20px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  font-family: arial;
+  font-weight: 600;
+}
+.wrapup .signup .birth {
+  width: 450px;
+  height: 30px;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  font-family: calibri;
+  font-weight: 500;
+  font-size: 15px;
+  color: grey;
+}
+.wrapup .signup .databox {
+  width: 100%;
+  height: 70px;
+  box-shadow: none;
+  margin-top: 20px;
+  display: flex;
+}
+.wrapup .signup .databox select {
+  width: fit-content;
+  border: none;
+  font-size: 15px;
+  margin-top: 20px;
+  color: grey;
+  outline: none;
+}
+.wrapup .signup .databox .month {
+  width: 200px;
+  height: 60px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 70px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: smaller;
+}
+.wrapup .signup .databox .month .osu {
+  width: 200px;
+  height: 38px;
+}
+.wrapup .signup .databox .month:focus + select {
+  border: 2px solid #1D9BF0;
+  outline: none;
+}
+.wrapup .signup .databox .day {
+  width: 100px;
+  height: 60px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: smaller;
+}
+.wrapup .signup .databox .day .ojo {
+  width: 200px;
+  height: 38px;
+}
+.wrapup .signup .databox .year {
+  width: 120px;
+  height: 60px;
+  box-shadow: 0px 0px 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: smaller;
+}
+.wrapup .signup .databox .year .odun {
+  width: 200px;
+  height: 38px;
+}
+.wrapup .signup .databox button {
+  background-color: transparent;
+  border: none;
+}
+.wrapup .signup .ref {
+  text-decoration: none;
+}
+.wrapup .signup .nextbox {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+.wrapup .signup .nextbox .next {
+  width: 450px;
+  height: 50px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 30px;
+  margin-left: 70px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: calibri;
+  border: none;
+}
+.wrapup .signup .next:hover {
+  background-color: #272C30;
+  border: none;
+}
+@media (max-width: 1280px) {
+  .wrapup .signup {
+    height: 600px;
+    margin-top: 95px !important;
+    margin-left: 350px;
+  }
+}
+@media (max-width: 1180px) {
+  .wrapup .signup {
+    height: 650px;
+    margin-top: 85px;
+    margin-left: 290px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapup .signup {
+    height: 530px;
+    margin-top: 115px !important;
+    margin-left: 200px;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+  }
+  .wrapup .signup .nextbox {
+    border: 1px gainsboro;
+    position: fixed;
+    margin-top: -65px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 600px;
+    height: 87;
+  }
+  .wrapup .signup .nextbox .next {
+    margin-top: -8px;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 600px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    font-size: 31px;
+  }
+}
+@media (max-width: 915px) {
+  .wrapup .signup {
+    width: 100%;
+    height: 425px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-x: hidden;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 800px;
+    z-index: 1;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 150px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 185px;
+  }
+  .wrapup .signup input {
+    margin-left: 185px;
+    width: 550px;
+  }
+  .wrapup .signup span {
+    margin-left: 80px;
+  }
+  .wrapup .signup .email {
+    margin-left: 290px;
+  }
+  .wrapup .signup .nextbox {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    margin-top: -160px !important;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 800px;
+    margin-left: 60px;
+    margin-top: -50px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 185px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 185px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 115px;
+  }
+  .wrapup .signup .databox .month {
+    width: 220px;
+  }
+  .wrapup .signup .databox .day {
+    width: 120px;
+  }
+  .wrapup .signup .databox .year {
+    width: 160px;
+  }
+}
+@media (max-width: 912px) {
+  .wrapup .signup {
+    width: 600px;
+    height: 650px;
+    margin-top: 350px !important;
+    margin-left: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 600px;
+    z-index: 1;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 10px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 70px;
+  }
+  .wrapup .signup input {
+    margin-left: 70px;
+    width: 450px;
+  }
+  .wrapup .signup span {
+    margin-left: 0px;
+  }
+  .wrapup .signup .email {
+    margin-left: 70px;
+  }
+  .wrapup .signup .nextbox {
+    width: 600px;
+    height: 130px;
+    border: none;
+    background-color: transparent;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 350px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 70px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 70px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 0px;
+  }
+  .wrapup .signup .databox .month {
+    width: 200px;
+  }
+  .wrapup .signup .databox .day {
+    width: 100px;
+  }
+  .wrapup .signup .databox .year {
+    width: 120px;
+  }
+}
+@media (max-width: 896px) {
+  .wrapup .signup {
+    width: 100%;
+    height: 425px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-x: hidden;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 800px;
+    z-index: 1;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 150px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 185px;
+  }
+  .wrapup .signup input {
+    margin-left: 185px;
+    width: 550px;
+  }
+  .wrapup .signup span {
+    margin-left: 80px;
+  }
+  .wrapup .signup .email {
+    margin-left: 290px;
+  }
+  .wrapup .signup .nextbox {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    margin-top: -160px !important;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 800px;
+    margin-left: 60px;
+    margin-top: -50px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 185px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 185px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 115px;
+  }
+  .wrapup .signup .databox .month {
+    width: 220px;
+  }
+  .wrapup .signup .databox .day {
+    width: 120px;
+  }
+  .wrapup .signup .databox .year {
+    width: 160px;
+  }
+}
+@media (max-width: 851px) {
+  .wrapup .signup {
+    width: 100%;
+    height: 425px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-x: hidden;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 800px;
+    z-index: 1;
+    font-size: 20px;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 110px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 145px;
+    font-size: 27px;
+  }
+  .wrapup .signup input {
+    margin-left: 145px;
+    width: 550px;
+  }
+  .wrapup .signup span {
+    margin-left: 80px;
+  }
+  .wrapup .signup .email {
+    margin-left: 250px;
+  }
+  .wrapup .signup .nextbox {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: none;
+    margin-top: -160px !important;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 750px;
+    margin-left: 60px;
+    margin-top: -110px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 145px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 145px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 75px;
+  }
+  .wrapup .signup .databox .month {
+    width: 220px;
+  }
+  .wrapup .signup .databox .day {
+    width: 120px;
+  }
+  .wrapup .signup .databox .year {
+    width: 160px;
+  }
+}
+@media (max-width: 820px) {
+  .wrapup .signup {
+    width: 600px;
+    height: 650px;
+    margin-top: 260px !important;
+    margin-left: 110px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 600px;
+    z-index: 1;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 10px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 70px;
+  }
+  .wrapup .signup input {
+    margin-left: 70px;
+    width: 450px;
+  }
+  .wrapup .signup span {
+    margin-left: 0px;
+  }
+  .wrapup .signup .email {
+    margin-left: 70px;
+  }
+  .wrapup .signup .nextbox {
+    width: 600px;
+    height: 130px;
+    border: none;
+    background-color: transparent;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 350px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 70px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 70px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 0px;
+  }
+  .wrapup .signup .databox .month {
+    width: 200px;
+  }
+  .wrapup .signup .databox .day {
+    width: 100px;
+  }
+  .wrapup .signup .databox .year {
+    width: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapup .signup {
+    margin-top: 195px !important;
+    margin-left: 85px !important;
+  }
+}
+@media (max-width: 740px) {
+  .wrapup .signup {
+    width: 100%;
+    height: 360px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-x: hidden;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 800px;
+    z-index: 1;
+    font-size: 19px;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 60px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 95px;
+    font-size: 25px;
+  }
+  .wrapup .signup input {
+    margin-left: 95px;
+    width: 550px;
+  }
+  .wrapup .signup span {
+    margin-left: 10px;
+  }
+  .wrapup .signup .email {
+    margin-left: 200px;
+  }
+  .wrapup .signup .nextbox {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: none;
+    margin-top: -160px !important;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 650px;
+    margin-left: 45px;
+    margin-top: -145px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 95px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 95px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 25px;
+  }
+  .wrapup .signup .databox .month {
+    width: 220px;
+  }
+  .wrapup .signup .databox .day {
+    width: 120px;
+  }
+  .wrapup .signup .databox .year {
+    width: 160px;
+  }
+}
+@media (max-width: 720px) {
+  .wrapup .signup {
+    width: 600px;
+    height: 500px;
+    margin-top: 20px !important;
+    margin-left: 60px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .wrapup .signup .closebox {
+    margin-top: 0px;
+    position: fixed;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    width: 600px;
+    z-index: 1;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 10px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 70px;
+  }
+  .wrapup .signup input {
+    margin-left: 70px;
+    width: 450px;
+  }
+  .wrapup .signup span {
+    margin-left: 0px;
+  }
+  .wrapup .signup .email {
+    margin-left: 70px;
+  }
+  .wrapup .signup .nextbox {
+    width: 600px;
+    height: 100px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -90px !important;
+    background-color: white;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 20px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 70px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 70px;
+  }
+  .wrapup .signup .databox {
+    margin-left: 0px;
+  }
+  .wrapup .signup .databox .month {
+    width: 200px;
+  }
+  .wrapup .signup .databox .day {
+    width: 100px;
+  }
+  .wrapup .signup .databox .year {
+    width: 120px;
+  }
+}
+@media (max-width: 667px) {
+  .wrapup .signup {
+    width: 100%;
+    height: 360px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-x: hidden;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 800px;
+    z-index: 1;
+    font-size: 19px;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 0px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 60px;
+    font-size: 25px;
+  }
+  .wrapup .signup input {
+    margin-left: 60px;
+    width: 550px;
+  }
+  .wrapup .signup span {
+    margin-left: 10px;
+  }
+  .wrapup .signup .email {
+    margin-left: 165px;
+  }
+  .wrapup .signup .nextbox {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: none;
+    margin-top: -160px !important;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 600px;
+    margin-left: 35px;
+    margin-top: -125px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 60px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 60px;
+  }
+  .wrapup .signup .databox {
+    margin-left: -5px;
+  }
+  .wrapup .signup .databox .month {
+    width: 220px;
+  }
+  .wrapup .signup .databox .day {
+    width: 120px;
+  }
+  .wrapup .signup .databox .year {
+    width: 160px;
+  }
+}
+@media (max-width: 653px) {
+  .wrapup .signup {
+    width: 100%;
+    height: 360px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    padding-bottom: 140px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-x: hidden;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 800px;
+    z-index: 1;
+    font-size: 19px;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 0px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 60px;
+    font-size: 25px;
+  }
+  .wrapup .signup input {
+    margin-left: 60px;
+    width: 550px;
+  }
+  .wrapup .signup span {
+    margin-left: 10px;
+  }
+  .wrapup .signup .email {
+    margin-left: 165px;
+  }
+  .wrapup .signup .nextbox {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border: none;
+    margin-top: -250px !important;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 590px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: -178px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 60px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 60px;
+  }
+  .wrapup .signup .databox {
+    margin-left: -5px;
+  }
+  .wrapup .signup .databox .month {
+    width: 220px;
+  }
+  .wrapup .signup .databox .day {
+    width: 120px;
+  }
+  .wrapup .signup .databox .year {
+    width: 160px;
+  }
+}
+@media (max-width: 540px) {
+  .wrapup .signup {
+    width: 600px;
+    height: 720px !important;
+    margin-top: 0px !important;
+    margin-left: 160px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .wrapup .signup .closebox {
+    position: fixed;
+    background-color: white;
+    width: 600px;
+    z-index: 1;
+  }
+  .wrapup .signup .closebox .close {
+    margin-left: 10px;
+  }
+  .wrapup .signup .create {
+    margin-top: 75px;
+    margin-left: 50px;
+  }
+  .wrapup .signup input {
+    margin-left: 50px;
+    width: 450px;
+  }
+  .wrapup .signup span {
+    margin-left: 0px;
+  }
+  .wrapup .signup .email {
+    margin-left: 50px;
+  }
+  .wrapup .signup .nextbox {
+    width: 600px;
+    height: 130px;
+    border: none;
+    background-color: transparent;
+  }
+  .wrapup .signup .nextbox .next {
+    width: 450px;
+    margin-left: 45px;
+    margin-top: 690px !important;
+  }
+  .wrapup .signup .birthdate {
+    margin-left: 50px;
+  }
+  .wrapup .signup .birth {
+    margin-left: 50px;
+  }
+  .wrapup .signup .databox {
+    margin-left: -20px !important;
+  }
+  .wrapup .signup .databox .month {
+    width: 200px;
+  }
+  .wrapup .signup .databox .day {
+    width: 100px;
+  }
+  .wrapup .signup .databox .year {
+    width: 120px;
+  }
+}
+
+.into {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 2px;
+  background-color: #999999;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.into .signup2 {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 0px 3px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.into .signup2 .backbox {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: arial;
+  font-weight: 700;
+}
+.into .signup2 .backbox .back {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.into .signup2 .backbox .back .ref {
+  color: black;
+}
+.into .signup2 .backbox .back .ref .fa-arrow-left {
+  font-size: smaller;
+}
+.into .signup2 .backbox .back:hover {
+  background-color: #E7E7E8;
+  outline: none;
+}
+.into .signup2 .backbox .step {
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin-left: -15px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.into .signup2 .customize {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 700;
+}
+.into .signup2 .track {
+  width: 380px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: 600;
+  line-height: 25px;
+}
+.into .signup2 .agree {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: -5px;
+}
+.into .signup2 .agree .know {
+  width: 400px;
+  height: fit-content;
+  margin-left: 70px;
+  font-family: calibri;
+  font-size: 16px;
+}
+.into .signup2 .agree .markcircle {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: white;
+  margin-right: 40px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.into .signup2 .agree .markcircle .mark {
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.into .signup2 .agree .markcircle .mark .fa-check {
+  color: white;
+}
+.into .signup2 .agree .markcircle:hover {
+  background-color: #E8F5FD;
+  outline: none;
+}
+.into .signup2 .agree .mark:focus-within {
+  background-color: #0F9AFB;
+  border: none;
+}
+.into .signup2 .policy {
+  width: 450px;
+  height: 100px;
+  box-shadow: none;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-family: calibri;
+  font-size: 16px;
+}
+.into .signup2 .policy .terms {
+  margin-right: -7px;
+  margin-left: -5px;
+  border: none;
+  color: #0F9AFB;
+  background-color: transparent;
+}
+.into .signup2 .policy .terms:hover {
+  text-decoration: underline;
+}
+.into .signup2 .next {
+  width: 450px;
+  height: 50px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 110px;
+  margin-left: 70px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: calibri;
+}
+.into .signup2 .next:hover {
+  background-color: #272C30;
+  border: none;
+}
+@media (max-width: 1280px) {
+  .into .signup2 {
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 340px !important;
+  }
+}
+@media (max-width: 1180px) {
+  .into .signup2 {
+    height: 650px;
+    margin-top: 85px;
+    margin-left: 280px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .into .signup2 {
+    height: 650px;
+    margin-top: 60px !important;
+    margin-left: 200px !important;
+  }
+}
+@media (max-width: 915px) {
+  .into .signup2 {
+    width: 100% !important;
+    height: 425px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    padding-bottom: 80px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 140px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 75px;
+    font-size: 27px !important;
+    margin-left: 180px;
+  }
+  .into .signup2 .track {
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 500px;
+    font-size: 23px;
+  }
+  .into .signup2 .agree {
+    margin-top: -15px;
+    margin-left: 110px;
+  }
+  .into .signup2 .agree .know {
+    width: 500px;
+  }
+  .into .signup2 .policy {
+    margin-left: 180px;
+  }
+  .into .signup2 .next {
+    width: 800px;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 912px) {
+  .into .signup2 {
+    width: 600px !important;
+    height: 650px;
+    margin-top: 350px !important;
+    margin-left: 160px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 0px;
+    position: relative;
+  }
+  .into .signup2 .customize {
+    margin-top: 15px;
+    font-size: 30px !important;
+    margin-left: 80px;
+  }
+  .into .signup2 .track {
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 420px;
+    font-size: 23px;
+  }
+  .into .signup2 .agree {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .into .signup2 .agree .know {
+    width: 400px;
+  }
+  .into .signup2 .policy {
+    margin-left: 80px;
+  }
+  .into .signup2 .next {
+    width: 450px;
+    margin-left: 75px;
+    margin-top: 145px;
+  }
+}
+@media (max-width: 896px) {
+  .into .signup2 {
+    width: 100% !important;
+    height: 425px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    padding-bottom: 80px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 140px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 75px;
+    font-size: 27px !important;
+    margin-left: 180px;
+  }
+  .into .signup2 .track {
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 500px;
+    font-size: 23px;
+  }
+  .into .signup2 .agree {
+    margin-top: -15px;
+    margin-left: 110px;
+  }
+  .into .signup2 .agree .know {
+    width: 500px;
+  }
+  .into .signup2 .policy {
+    margin-left: 180px;
+  }
+  .into .signup2 .next {
+    width: 800px;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 851px) {
+  .into .signup2 .next {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 820px) {
+  .into .signup2 {
+    width: 600px !important;
+    height: 650px;
+    margin-top: 260px !important;
+    margin-left: 110px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 0px;
+    position: relative;
+  }
+  .into .signup2 .customize {
+    margin-top: 15px;
+    font-size: 30px !important;
+    margin-left: 80px;
+  }
+  .into .signup2 .track {
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 420px;
+    font-size: 23px;
+  }
+  .into .signup2 .agree {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .into .signup2 .agree .know {
+    width: 400px;
+  }
+  .into .signup2 .policy {
+    margin-left: 80px;
+  }
+  .into .signup2 .next {
+    width: 450px;
+    margin-left: 75px;
+    margin-top: 145px;
+  }
+}
+@media (max-width: 768px) {
+  .into .signup2 {
+    margin-top: 180px !important;
+    margin-left: 85px !important;
+  }
+}
+@media (max-width: 740px) {
+  .into .signup2 {
+    width: 100% !important;
+    height: 425px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    padding-bottom: 80px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 60px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 75px;
+    font-size: 25px !important;
+    margin-left: 100px;
+  }
+  .into .signup2 .track {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 500px;
+    font-size: 21px;
+  }
+  .into .signup2 .agree {
+    margin-top: -15px;
+    margin-left: 30px;
+  }
+  .into .signup2 .agree .know {
+    width: 500px;
+  }
+  .into .signup2 .policy {
+    margin-left: 100px;
+  }
+  .into .signup2 .next {
+    width: 650px;
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 720px) {
+  .into .signup2 {
+    width: 600px !important;
+    height: 450px !important;
+    margin-top: 30px !important;
+    margin-left: 60px !important;
+    padding-bottom: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow-y: scroll;
+  }
+  .into .signup2 .backbox {
+    border-top-left-radius: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: fixed;
+    width: 500px;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 80px;
+    font-size: 30px !important;
+    margin-left: 80px;
+  }
+  .into .signup2 .track {
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 420px;
+    font-size: 23px;
+  }
+  .into .signup2 .agree {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+  .into .signup2 .agree .know {
+    width: 400px;
+  }
+  .into .signup2 .policy {
+    margin-left: 80px;
+  }
+  .into .signup2 .next {
+    width: 450px;
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 667px) {
+  .into .signup2 {
+    width: 100% !important;
+    height: 425px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    padding-bottom: 80px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 30px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 75px;
+    font-size: 25px !important;
+    margin-left: 65px;
+  }
+  .into .signup2 .track {
+    margin-top: 10px;
+    margin-left: 65px;
+    width: 500px;
+    font-size: 21px;
+  }
+  .into .signup2 .agree {
+    margin-top: -15px;
+    margin-left: -5px;
+  }
+  .into .signup2 .agree .know {
+    width: 500px;
+  }
+  .into .signup2 .policy {
+    margin-left: 65px;
+  }
+  .into .signup2 .next {
+    width: 550px;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 653px) {
+  .into .signup2 {
+    width: 100% !important;
+    height: 300px !important;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    padding-bottom: 80px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .into .signup2 .backbox {
+    margin-left: 30px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 75px;
+    font-size: 25px !important;
+    margin-left: 65px;
+  }
+  .into .signup2 .track {
+    margin-top: 10px;
+    margin-left: 65px;
+    width: 500px;
+    font-size: 21px;
+  }
+  .into .signup2 .agree {
+    margin-top: -15px;
+    margin-left: -5px;
+  }
+  .into .signup2 .agree .know {
+    width: 500px;
+  }
+  .into .signup2 .policy {
+    margin-left: 65px;
+  }
+  .into .signup2 .next {
+    width: 550px;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .into .signup2 {
+    width: 100%;
+    height: 730px !important;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .into .signup2 .backbox {
+    margin-left: 30px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup2 .customize {
+    margin-top: 205px;
+    font-size: 25px !important;
+    margin-left: 45px;
+  }
+  .into .signup2 .track {
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 500px;
+    font-size: 21px;
+  }
+  .into .signup2 .agree {
+    margin-top: -15px;
+    margin-left: -25px;
+  }
+  .into .signup2 .agree .know {
+    width: 500px;
+  }
+  .into .signup2 .policy {
+    margin-left: 45px;
+  }
+  .into .signup2 .next {
+    width: 460px;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .into .signup3 {
+    width: 100%;
+    height: 900px !important;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .into .signup3 .backbox {
+    margin-left: 30px;
+    position: fixed;
+    background-color: white;
+  }
+  .into .signup3 .customize {
+    margin-top: 75px;
+    font-size: 25px !important;
+    margin-left: 65px;
+  }
+  .into .signup3 .track {
+    margin-top: 10px;
+    margin-left: 65px;
+    width: 400px !important;
+    font-size: 21px;
+  }
+  .into .signup3 .agree {
+    margin-top: -15px;
+    margin-left: -5px;
+  }
+  .into .signup3 .agree .know {
+    width: 500px;
+  }
+  .into .signup3 .policy {
+    margin-left: 65px;
+  }
+  .into .signup3 .next {
+    width: 550px;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 412px) {
+  .into .forgotpassword {
+    width: 100%;
+    height: 915px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .into .forgotpassword .search {
+    margin-top: 640px;
+    width: 350px;
+    height: 55px !important;
+    margin-left: 32px;
+  }
+  .into .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .into .forgotpassword .closebox .bird {
+    margin-left: 20px;
+  }
+  .into .forgotpassword .join {
+    margin-left: 30px;
+    font-size: 29px !important;
+  }
+  .into .forgotpassword input {
+    margin-left: 30px;
+    width: 350px;
+  }
+  .into .forgotpassword span {
+    margin-left: -15px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 393px) {
+  .into .forgotpassword .search {
+    margin-top: 575px;
+    width: 340px;
+    height: 55px !important;
+    margin-left: 27px;
+  }
+  .into .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .into .forgotpassword .closebox .bird {
+    margin-left: 10px;
+  }
+  .into .forgotpassword .join {
+    margin-left: 30px;
+    font-size: 29px !important;
+  }
+  .into .forgotpassword input {
+    margin-left: 20px;
+    width: 350px;
+  }
+  .into .forgotpassword span {
+    margin-left: -15px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 375px) {
+  .into .forgotpassword .search {
+    margin-top: 375px;
+    width: 325px;
+    height: 55px !important;
+    margin-left: 27px;
+  }
+  .into .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .into .forgotpassword .closebox .bird {
+    margin-left: 10px;
+  }
+  .into .forgotpassword .join {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 31px !important;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .into .forgotpassword input {
+    margin-left: 18px;
+    width: 340px;
+  }
+  .into .forgotpassword span {
+    margin-left: -24px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 360px) {
+  .into .forgotpassword .search {
+    margin-top: 455px;
+    width: 300px;
+    height: 53px !important;
+    margin-left: 30px;
+  }
+  .into .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .into .forgotpassword .closebox .bird {
+    margin-left: -10px;
+  }
+  .into .forgotpassword .join {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 31px !important;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .into .forgotpassword input {
+    margin-left: 10px;
+    width: 340px;
+  }
+  .into .forgotpassword span {
+    margin-left: -30px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 280px) {
+  .into .forgotpassword .search {
+    margin-top: 370px;
+    width: 225px;
+    height: 50px !important;
+    margin-left: 27px;
+  }
+  .into .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .into .forgotpassword .closebox .bird {
+    margin-left: -45px;
+  }
+  .into .forgotpassword .join {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 28px !important;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .into .forgotpassword input {
+    margin-left: 10px;
+    width: 300px !important;
+  }
+  .into .forgotpassword span {
+    margin-left: -30px !important;
+    font-size: 16px !important;
+  }
+}
+
+.mother {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #999999;
+}
+.mother .signin {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 0px 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.mother .signin .closebox {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: arial;
+  font-weight: 700;
+}
+.mother .signin .closebox .close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.mother .signin .closebox .close .fa-close {
+  font-size: larger;
+}
+.mother .signin .closebox .close:hover {
+  background-color: #E7E7E8;
+}
+.mother .signin .closebox .bird {
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin-left: 15%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mother .signin .sign {
+  width: fit-content;
+  height: 80px;
+  box-shadow: none;
+  margin-left: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: calibri;
+  font-weight: 700;
+}
+.mother .signin .login1 {
+  width: 300px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 140px;
+  margin-top: 15px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mother .signin .login1 .googlelogo {
+  width: 50px;
+  height: 20px;
+}
+.mother .signin .login1 .google {
+  width: 100;
+  height: 15px;
+  font-family: arial;
+  font-size: 14px;
+  margin-left: -6px;
+  margin-right: -4;
+}
+.mother .signin .login1:hover {
+  background-color: ghostwhite;
+}
+.mother .signin .login2 {
+  width: 300px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 140px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mother .signin .login2 .fa-apple {
+  width: 50px;
+  height: 20px;
+  font-size: larger;
+}
+.mother .signin .login2 .apple {
+  width: 100;
+  height: 25px;
+  font-family: calibri;
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: -12px;
+  margin-right: -7;
+}
+.mother .signin .login2:hover {
+  background-color: #E6E6E6;
+}
+.mother .signin button {
+  background-color: transparent;
+  border: none;
+}
+.mother .signin .or {
+  width: 300px;
+  height: 15px;
+  margin-left: 140px;
+  margin-top: 15px;
+  font-family: arial;
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+}
+.mother .signin input {
+  width: 300px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 140px;
+}
+.mother .signin .input {
+  position: relative;
+  color: gray;
+  font-family: arial;
+  font-weight: 500;
+  text-indent: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.mother .signin .input span {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  background-color: white;
+}
+.mother .signin .input .name:focus + span {
+  transform: translateY(-100%);
+  color: #0F9AFB;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.mother .signin .input .name:focus {
+  border: 2px solid #1D9BF0;
+  outline: none;
+}
+.mother .signin .ref {
+  text-decoration: none;
+}
+.mother .signin .next {
+  width: 300px;
+  height: 35px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 25px;
+  margin-left: 140px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: calibri;
+  border: none;
+}
+.mother .signin .next:hover {
+  background-color: #272C30;
+  border: none;
+}
+.mother .signin .forgotpassword {
+  width: 300px;
+  height: 35px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 25px;
+  margin-left: 140px;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: calibri;
+}
+.mother .signin .forgotpassword:hover {
+  background-color: #E6E6E6;
+  border: none;
+}
+.mother .signin .account {
+  width: 300px;
+  height: fit-content;
+  margin-top: 50px;
+  margin-left: 140px;
+  font-family: calibri;
+  font-size: 17px;
+  color: gray;
+}
+.mother .signin .account button {
+  background-color: transparent;
+  color: #0F9AFB;
+}
+.mother .signin .account button:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1280px) {
+  .mother .signin {
+    height: 600px;
+    margin-top: 95px !important;
+    margin-left: 350px;
+  }
+}
+@media (max-width: 1180px) {
+  .mother .signin {
+    height: 650px;
+    margin-top: 85px;
+    margin-left: 290px;
+  }
+}
+@media (max-width: 1024px) {
+  .mother .signin {
+    height: 550px;
+    margin-top: 115px !important;
+    margin-left: 200px !important;
+  }
+  .mother .signin .account {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 915px) {
+  .mother .signin {
+    width: 100%;
+    height: 425px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .mother .signin .closebox {
+    margin-left: 130px;
+  }
+  .mother .signin .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+  }
+  .mother .signin .closebox .bird {
+    height: 60px;
+    margin-left: 105px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .mother .signin .sign {
+    margin-left: 330px;
+  }
+  .mother .signin .login1 {
+    margin-left: 330px;
+  }
+  .mother .signin .login2 {
+    margin-left: 330px;
+  }
+  .mother .signin .or {
+    margin-left: 330px;
+  }
+  .mother .signin input {
+    margin-left: 330px;
+  }
+  .mother .signin span {
+    margin-left: 110px;
+  }
+  .mother .signin .next {
+    margin-left: 330px;
+  }
+  .mother .signin .instruction {
+    margin-left: 330px;
+  }
+  .mother .signin .account {
+    margin-left: 330px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 330px;
+  }
+}
+@media (max-width: 912px) {
+  .mother .signin {
+    width: 600px;
+    height: 650px;
+    margin-top: 350px !important;
+    margin-left: 160px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .mother .signin .closebox {
+    margin-left: 20px;
+  }
+  .mother .signin .closebox .bird {
+    margin-left: 50px;
+    height: 60px;
+  }
+  .mother .signin .sign {
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .mother .signin .login1 {
+    margin-left: 140px;
+  }
+  .mother .signin .login2 {
+    margin-left: 140px;
+  }
+  .mother .signin .or {
+    margin-left: 140px;
+  }
+  .mother .signin .next {
+    margin-left: 140px;
+  }
+  .mother .signin input {
+    margin-left: 140px;
+  }
+  .mother .signin span {
+    margin-left: 0px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 140px;
+  }
+  .mother .signin .account {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 896px) {
+  .mother .signin {
+    width: 100%;
+    height: 440px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .mother .signin .closebox {
+    margin-left: 130px;
+  }
+  .mother .signin .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+  }
+  .mother .signin .closebox .bird {
+    height: 60px;
+    margin-left: 105px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .mother .signin .sign {
+    margin-left: 330px;
+    margin-top: 0px;
+  }
+  .mother .signin .login1 {
+    margin-left: 330px;
+  }
+  .mother .signin .login2 {
+    margin-left: 330px;
+  }
+  .mother .signin .or {
+    margin-left: 330px;
+  }
+  .mother .signin .next {
+    margin-left: 330px;
+  }
+  .mother .signin input {
+    margin-left: 330px;
+  }
+  .mother .signin span {
+    margin-left: 110px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 330px;
+  }
+  .mother .signin .account {
+    margin-left: 330px;
+  }
+}
+@media (max-width: 851px) {
+  .mother .signin .closebox {
+    margin-left: 130px;
+  }
+  .mother .signin .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+  }
+  .mother .signin .closebox .bird {
+    height: 60px;
+    margin-left: 75px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .mother .signin .sign {
+    margin-left: 290px;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .mother .signin .login1 {
+    margin-left: 290px;
+  }
+  .mother .signin .login2 {
+    margin-left: 290px;
+  }
+  .mother .signin .or {
+    margin-left: 290px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 290px;
+  }
+  .mother .signin input {
+    margin-left: 290px;
+  }
+  .mother .signin span {
+    margin-left: 80px;
+  }
+  .mother .signin .next {
+    margin-left: 290px;
+  }
+  .mother .signin .account {
+    margin-left: 290px;
+  }
+}
+@media (max-width: 820px) {
+  .mother .signin {
+    width: 600px;
+    height: 650px;
+    margin-top: 250px !important;
+    margin-left: 110px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .mother .signin .closebox {
+    margin-left: 20px;
+  }
+  .mother .signin .closebox .bird {
+    margin-left: 50px;
+    height: 60px;
+  }
+  .mother .signin .sign {
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .mother .signin .login1 {
+    margin-left: 140px;
+  }
+  .mother .signin .login2 {
+    margin-left: 140px;
+  }
+  .mother .signin .or {
+    margin-left: 140px;
+  }
+  .mother .signin .next {
+    margin-left: 140px;
+  }
+  .mother .signin input {
+    margin-left: 140px;
+  }
+  .mother .signin span {
+    margin-left: 0px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 140px;
+  }
+  .mother .signin .account {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 768px) {
+  .mother .signin {
+    margin-left: 85px !important;
+    margin-top: 195px !important;
+  }
+}
+@media (max-width: 740px) {
+  .mother .signin {
+    width: 100%;
+    height: 370px;
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .mother .signin .closebox {
+    margin-left: 40px;
+  }
+  .mother .signin .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: 30px;
+  }
+  .mother .signin .closebox .bird {
+    height: 60px;
+    margin-left: 105px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .mother .signin .sign {
+    margin-left: 220px;
+    margin-top: 0px;
+    font-size: 28px;
+  }
+  .mother .signin .login1 {
+    margin-left: 220px;
+  }
+  .mother .signin .login2 {
+    margin-left: 220px;
+  }
+  .mother .signin .or {
+    margin-left: 220px;
+  }
+  .mother .signin .next {
+    margin-left: 220px;
+  }
+  .mother .signin input {
+    margin-left: 220px;
+  }
+  .mother .signin span {
+    margin-left: 40px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 220px;
+  }
+  .mother .signin .account {
+    margin-left: 220px;
+  }
+}
+@media (max-width: 720px) {
+  .mother .signin {
+    width: 600px;
+    height: 500px;
+    margin-top: 20px !important;
+    margin-left: 60px !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .mother .signin .closebox {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .mother .signin .closebox .close {
+    position: fixed;
+    z-index: 1;
+  }
+  .mother .signin .closebox .bird {
+    width: 500px;
+    margin-left: 35px;
+    height: 60px;
+    position: fixed;
+  }
+  .mother .signin .sign {
+    margin-left: 150px;
+    margin-top: 0px;
+    font-size: 35px;
+  }
+  .mother .signin .login1 {
+    margin-left: 140px;
+  }
+  .mother .signin .login2 {
+    margin-left: 140px;
+  }
+  .mother .signin .or {
+    margin-left: 140px;
+  }
+  .mother .signin .next {
+    margin-left: 140px;
+  }
+  .mother .signin input {
+    margin-left: 140px;
+  }
+  .mother .signin .forgotpassword {
+    margin-left: 140px;
+  }
+  .mother .signin .account {
+    margin-left: 140px;
+  }
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 2px;
+  background-color: #999999;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.wrap .signin2 {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 0px 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.wrap .signin2 .closebox {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: arial;
+  font-weight: 700;
+}
+.wrap .signin2 .closebox .close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.wrap .signin2 .closebox .close .fa-close {
+  font-size: larger;
+}
+.wrap .signin2 .closebox .close:hover {
+  background-color: #E7E7E8;
+}
+.wrap .signin2 .closebox .bird {
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin-left: 15%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .signin2 .enter {
+  width: fit-content;
+  height: 80px;
+  box-shadow: none;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-family: calibri;
+  font-weight: 700;
+}
+.wrap .signin2 input {
+  width: 450px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 70px;
+}
+.wrap .signin2 .passwordinput {
+  position: relative;
+  color: gray;
+  font-family: arial;
+  font-weight: 500;
+  text-indent: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.wrap .signin2 .passwordinput span {
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  background-color: white;
+}
+.wrap .signin2 .passwordinput .password:focus + span {
+  transform: translateY(-100%);
+  color: #0F9AFB;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.wrap .signin2 .passwordinput .password:focus {
+  border: 2px solid #1D9BF0;
+  outline: none;
+}
+.wrap .signin2 .passwordinput .facircle {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-left: -30px;
+  background-color: transparent;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  border: none;
+}
+.wrap .signin2 .passwordinput .facircle .fa-eye {
+  font-size: larger;
+}
+.wrap .signin2 .passwordinput .facircle:hover {
+  background-color: #E7E7E8;
+}
+.wrap .signin2 .forgotpassword {
+  width: fit-content;
+  height: fit-content;
+  color: #0F9AFB;
+  margin-left: 78px;
+  font-family: calibri;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+}
+.wrap .signin2 .forgotpassword:hover {
+  text-decoration: underline;
+}
+.wrap .signin2 .log {
+  width: 450px;
+  height: 55px;
+  margin-left: 70px;
+  margin-top: 250px;
+  background-color: black;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: calibri;
+  font-size: 18px;
+  font-weight: 600;
+}
+.wrap .signin2 .log:hover {
+  background-color: #272C30;
+  border: none;
+}
+.wrap .signin2 .account {
+  width: 300px;
+  height: fit-content;
+  margin-top: 15px;
+  margin-left: 70px;
+  font-family: calibri;
+  font-size: 17px;
+  color: gray;
+}
+.wrap .signin2 .account button {
+  background-color: transparent;
+  color: #0F9AFB;
+  border: none;
+}
+.wrap .signin2 .account button:hover {
+  text-decoration: underline;
+  border: none;
+}
+
+.signup3mother {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 2px;
+  background-color: #999999;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.signup3mother .signup3 {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 0px 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.signup3mother .signup3 .closebox {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: arial;
+  font-weight: 700;
+}
+.signup3mother .signup3 .closebox .close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.signup3mother .signup3 .closebox .close .fa-close {
+  font-size: larger;
+}
+.signup3mother .signup3 .closebox .close:hover {
+  background-color: #E7E7E8;
+}
+.signup3mother .signup3 .closebox .bird {
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin-left: 15%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup3mother .signup3 .join {
+  width: fit-content;
+  height: 80px;
+  box-shadow: none;
+  margin-left: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: calibri;
+  font-weight: 700;
+}
+.signup3mother .signup3 .login1 {
+  width: 300px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 140px;
+  margin-top: 15px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.signup3mother .signup3 .login1 .googlelogo {
+  width: 50px;
+  height: 20px;
+}
+.signup3mother .signup3 .login1 .google {
+  width: 100;
+  height: 15px;
+  font-family: arial;
+  font-size: 14px;
+  margin-left: -6px;
+  margin-right: -4;
+}
+.signup3mother .signup3 .login1:hover {
+  background-color: ghostwhite;
+}
+.signup3mother .signup3 .login2 {
+  width: 300px;
+  height: 38px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-left: 140px;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.signup3mother .signup3 .login2 .fa-apple {
+  width: 50px;
+  height: 20px;
+  font-size: larger;
+}
+.signup3mother .signup3 .login2 .apple {
+  width: 100;
+  height: 25px;
+  font-family: calibri;
+  font-size: 19px;
+  font-weight: 700;
+  margin-left: -12px;
+  margin-right: -7;
+}
+.signup3mother .signup3 .login2:hover {
+  background-color: #E6E6E6;
+}
+.signup3mother .signup3 button {
+  background-color: transparent;
+  border: none;
+}
+.signup3mother .signup3 .or {
+  width: 300px;
+  height: 15px;
+  margin-left: 140px;
+  margin-top: 10px;
+  font-family: arial;
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+}
+.signup3mother .signup3 .next {
+  width: 300px;
+  height: 35px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 20px;
+  margin-left: 140px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: calibri;
+  border: none;
+}
+.signup3mother .signup3 .next:hover {
+  background-color: #272C30;
+  border: none;
+}
+.signup3mother .signup3 .instruction {
+  width: 300px;
+  height: fit-content;
+  box-shadow: none;
+  margin-left: 140px;
+  margin-top: 10px;
+  font-family: calibri;
+  font-size: 15px;
+  line-height: 15px;
+  color: gray;
+}
+.signup3mother .signup3 .instruction .terms {
+  margin-right: -7px;
+  margin-left: -5px;
+  border: none;
+  color: #0F9AFB;
+  background-color: transparent;
+}
+.signup3mother .signup3 .instruction .terms:hover {
+  text-decoration: underline;
+}
+.signup3mother .signup3 .account {
+  width: 300px;
+  height: fit-content;
+  margin-top: 50px;
+  font-family: calibri;
+  font-size: 17px;
+  color: gray;
+}
+.signup3mother .signup3 .account button {
+  background-color: transparent;
+  color: #0F9AFB;
+}
+.signup3mother .signup3 .account button:hover {
+  text-decoration: underline;
+}
+.signup3mother .signup3 .ref {
+  text-decoration: none;
+}
+@media (max-width: 1280px) {
+  .signup3mother .signup3 {
+    height: 600px;
+    margin-top: 95px !important;
+    margin-left: 350px;
+  }
+}
+@media (max-width: 1180px) {
+  .signup3mother .signup3 {
+    height: 650px;
+    margin-top: 85px;
+    margin-left: 290px;
+  }
+}
+@media (max-width: 1024px) {
+  .signup3mother .signup3 {
+    height: 550px;
+    margin-top: 115px !important;
+    margin-left: 200px;
+  }
+  .signup3mother .signup3 .search {
+    margin-top: 260px;
+  }
+}
+@media (max-width: 915px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 425px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 130px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 105px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 912px) {
+  .signup3mother .signup3 {
+    width: 600px;
+    height: 650px;
+    margin-top: 350px !important;
+    margin-left: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 20px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    margin-left: 50px;
+    height: 60px;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 896px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 440px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 130px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 105px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 330px;
+    margin-top: 0px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 330px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 851px) {
+  .signup3mother .signup3 .closebox {
+    margin-left: 130px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 75px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 290px;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 290px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 290px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 290px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 290px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 290px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 820px) {
+  .signup3mother .signup3 {
+    width: 600px;
+    height: 650px;
+    margin-top: 250px !important;
+    margin-left: 110px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 20px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    margin-left: 50px;
+    height: 60px;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .signup3mother .signup3 {
+    margin-top: 200px !important;
+    margin-left: 85px;
+  }
+}
+@media (max-width: 740px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 100vh;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 40px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: 30px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 105px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 220px;
+    margin-top: 0px;
+    font-size: 28px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 220px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 220px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 220px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 220px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 220px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 720px) {
+  .signup3mother .signup3 {
+    width: 600px;
+    height: 500px;
+    margin-top: 20px !important;
+    margin-left: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 20px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: relative;
+    z-index: 1;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    width: 250px;
+    margin-left: 50px;
+    height: 60px;
+    position: relative;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 150px;
+    margin-top: 0px;
+    font-size: 35px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 140px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 667px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 390px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 40px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: 5px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 76px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 180px;
+    margin-top: 0px;
+    font-size: 30px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 180px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 180px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 180px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 180px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 653px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 300px !important;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 40px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: 5px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 65px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 180px;
+    margin-top: 0px;
+    font-size: 30px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 170px;
+    margin-top: 10px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 170px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 170px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 170px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 170px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 540px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 730px !important;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 40px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: 5px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: 15px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 120px;
+    margin-top: 120px;
+    font-size: 30px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 120px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 120px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 120px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 120px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 414px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 908px !important;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 40px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: -55px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 60px;
+    margin-top: 205px;
+    font-size: 30px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 60px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 60px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 60px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 60px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .signup3mother .signup3 {
+    width: 100%;
+    height: 908px !important;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    padding-bottom: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .signup3mother .signup3 .closebox {
+    margin-left: 40px;
+  }
+  .signup3mother .signup3 .closebox .close {
+    position: fixed;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+  .signup3mother .signup3 .closebox .bird {
+    height: 60px;
+    margin-left: -85px;
+    width: 450px;
+    position: fixed;
+    background-color: white;
+  }
+  .signup3mother .signup3 .join {
+    margin-left: 40px;
+    margin-top: 135px;
+    font-size: 29px;
+  }
+  .signup3mother .signup3 .login1 {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .signup3mother .signup3 .login2 {
+    margin-left: 30px;
+  }
+  .signup3mother .signup3 .or {
+    margin-left: 30px;
+  }
+  .signup3mother .signup3 .next {
+    margin-left: 30px;
+  }
+  .signup3mother .signup3 .instruction {
+    margin-left: 30px;
+  }
+  .signup3mother .signup3 .account {
+    margin-left: 0px;
+  }
+}
+
+.father {
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 2px;
+  background-color: #999999;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.father .forgotpassword {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 0px 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: white;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.father .forgotpassword .closebox {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+  font-family: arial;
+  font-weight: 700;
+}
+.father .forgotpassword .closebox .close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.father .forgotpassword .closebox .close .fa-close {
+  font-size: larger;
+}
+.father .forgotpassword .closebox .close:hover {
+  background-color: #E7E7E8;
+}
+.father .forgotpassword .closebox .bird {
+  width: 200px;
+  height: 40px;
+  box-shadow: none;
+  margin-left: 15%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.father .forgotpassword .join {
+  width: fit-content;
+  height: 80px;
+  box-shadow: none;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  font-family: calibri;
+  font-weight: 600;
+}
+.father .forgotpassword input {
+  width: 450px;
+  height: 60px;
+  border: 1px solid gainsboro;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 70px;
+}
+.father .forgotpassword .passwordinput {
+  position: relative;
+  color: gray;
+  font-family: arial;
+  font-weight: 500;
+  text-indent: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.father .forgotpassword .passwordinput span {
+  position: absolute;
+  left: 12%;
+  top: 20%;
+  background-color: white;
+}
+.father .forgotpassword .passwordinput .password:focus + span {
+  transform: translateY(-100%);
+  color: #0F9AFB;
+  font-size: smaller;
+  margin-top: 10px;
+}
+.father .forgotpassword .passwordinput .password:focus {
+  border: 2px solid #1D9BF0;
+  outline: none;
+}
+.father .forgotpassword .search {
+  width: 450px;
+  height: 55px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 315px;
+  margin-left: 70px;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+  font-size: 19px;
+  font-family: calibri;
+  border: none;
+}
+.father .forgotpassword .search:hover {
+  background-color: #272C30;
+  border: none;
+}
+@media (max-width: 1280px) {
+  .father .forgotpassword {
+    height: 600px;
+    margin-top: 95px !important;
+    margin-left: 350px;
+  }
+}
+@media (max-width: 1180px) {
+  .father .forgotpassword {
+    height: 650px;
+    margin-top: 85px;
+    margin-left: 290px;
+  }
+}
+@media (max-width: 1024px) {
+  .father .forgotpassword {
+    height: 550px;
+    margin-top: 115px !important;
+    margin-left: 200px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 260px;
+  }
+}
+@media (max-width: 915px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 450px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 130px;
+    width: 800px;
+    margin-left: 55px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 130px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 170px;
+  }
+  .father .forgotpassword input {
+    margin-left: 170px;
+    width: 550px;
+  }
+  .father .forgotpassword span {
+    margin-left: 65px;
+  }
+}
+@media (max-width: 912px) {
+  .father .forgotpassword {
+    width: 600px;
+    height: 650px;
+    margin-top: 350px !important;
+    margin-left: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 360px;
+    width: 450px;
+    margin-left: 70px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 70px;
+  }
+  .father .forgotpassword input {
+    margin-left: 70px;
+    width: 450px;
+  }
+  .father .forgotpassword span {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 896px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 450px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 130px;
+    width: 800px;
+    margin-left: 45px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 130px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 170px;
+  }
+  .father .forgotpassword input {
+    margin-left: 170px;
+    width: 550px;
+  }
+  .father .forgotpassword span {
+    margin-left: 65px;
+  }
+}
+@media (max-width: 851px) {
+  .father .forgotpassword .closebox {
+    margin-left: 110px;
+  }
+  .father .forgotpassword span {
+    margin-left: 70px !important;
+  }
+  .father .forgotpassword .search {
+    margin-top: 110px;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 844px) {
+  .father .forgotpassword .closebox {
+    margin-left: 110px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 110px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 820px) {
+  .father .forgotpassword {
+    width: 600px;
+    height: 650px;
+    margin-top: 280px !important;
+    margin-left: 110px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 360px;
+    width: 450px;
+    margin-left: 70px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 70px;
+  }
+  .father .forgotpassword input {
+    margin-left: 70px;
+    width: 450px;
+  }
+  .father .forgotpassword span {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .father .forgotpassword {
+    margin-top: 200px !important;
+    margin-left: 85px;
+  }
+}
+@media (max-width: 740px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 360px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 80px;
+    width: 650px;
+    height: 55px !important;
+    margin-left: 45px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 70px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 100px;
+    font-size: 30px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 100px;
+    width: 500px;
+  }
+  .father .forgotpassword span {
+    margin-left: 20px !important;
+  }
+}
+@media (max-width: 720px) {
+  .father .forgotpassword {
+    width: 600px;
+    height: 500px;
+    margin-top: 20px !important;
+    margin-left: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 220px;
+    width: 450px;
+    margin-left: 70px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: 115px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 70px;
+    font-size: 37px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 70px;
+    width: 450px;
+  }
+  .father .forgotpassword span {
+    margin-left: 5px !important;
+  }
+}
+@media (max-width: 667px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 380px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 90px;
+    width: 600px;
+    height: 55px !important;
+    margin-left: 33px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 38px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 75px;
+    font-size: 30px;
+  }
+  .father .forgotpassword input {
+    margin-left: 75px;
+    width: 530px;
+  }
+  .father .forgotpassword span {
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 653px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 380px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 10px;
+    width: 580px;
+    height: 55px !important;
+    margin-left: 35px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 20px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 65px;
+    font-size: 28px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 65px;
+    width: 530px;
+    margin-top: -10px;
+  }
+  .father .forgotpassword span {
+    margin-left: 0px !important;
+    margin-top: -10px;
+  }
+}
+@media (max-width: 540px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 730px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 435px;
+    width: 450px;
+    height: 55px !important;
+    margin-left: 45px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: 80px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 35px;
+    font-size: 29px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 35px;
+    width: 470px;
+  }
+  .father .forgotpassword span {
+    margin-left: -20px !important;
+  }
+}
+@media (max-width: 414px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 900px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 620px;
+    width: 350px;
+    height: 55px !important;
+    margin-left: 32px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: 25px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 30px;
+    font-size: 29px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 30px;
+    width: 350px;
+  }
+  .father .forgotpassword span {
+    margin-left: -15px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 412px) {
+  .father .forgotpassword {
+    width: 100%;
+    height: 915px;
+    margin-left: 0px;
+    margin-top: -10px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .father .forgotpassword .search {
+    margin-top: 640px;
+    width: 350px;
+    height: 55px !important;
+    margin-left: 32px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: 20px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 30px;
+    font-size: 29px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 30px;
+    width: 350px;
+  }
+  .father .forgotpassword span {
+    margin-left: -15px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 393px) {
+  .father .forgotpassword .search {
+    margin-top: 575px;
+    width: 340px;
+    height: 55px !important;
+    margin-left: 27px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: 10px;
+  }
+  .father .forgotpassword .join {
+    margin-left: 30px;
+    font-size: 29px !important;
+  }
+  .father .forgotpassword input {
+    margin-left: 20px;
+    width: 350px;
+  }
+  .father .forgotpassword span {
+    margin-left: -15px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 375px) {
+  .father .forgotpassword .search {
+    margin-top: 375px;
+    width: 325px;
+    height: 55px !important;
+    margin-left: 27px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: 10px;
+  }
+  .father .forgotpassword .join {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 31px !important;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .father .forgotpassword input {
+    margin-left: 18px;
+    width: 340px;
+  }
+  .father .forgotpassword span {
+    margin-left: -24px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 360px) {
+  .father .forgotpassword .search {
+    margin-top: 455px;
+    width: 300px;
+    height: 53px !important;
+    margin-left: 30px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: -10px;
+  }
+  .father .forgotpassword .join {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 31px !important;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .father .forgotpassword input {
+    margin-left: 10px;
+    width: 340px;
+  }
+  .father .forgotpassword span {
+    margin-left: -30px !important;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 280px) {
+  .father .forgotpassword .search {
+    margin-top: 370px;
+    width: 225px;
+    height: 50px !important;
+    margin-left: 27px;
+  }
+  .father .forgotpassword .closebox {
+    margin-left: 0px;
+  }
+  .father .forgotpassword .closebox .bird {
+    margin-left: -45px;
+  }
+  .father .forgotpassword .join {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 28px !important;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .father .forgotpassword input {
+    margin-left: 10px;
+    width: 300px !important;
+  }
+  .father .forgotpassword span {
+    margin-left: -30px !important;
+    font-size: 16px !important;
+  }
+}
+
+/*# sourceMappingURL=twitter.css.map */
